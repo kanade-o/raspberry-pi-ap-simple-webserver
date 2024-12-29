@@ -8,7 +8,7 @@ This repository provides configuration scripts and code to transform a Raspberry
 
 - Convert Raspberry Pi into a Wi-Fi access point
 - Automatically start the web server on access point activation
-- Examples using Nginx or Python for a lightweight web server
+- Examples using Flask for a lightweight web server
 - Simple and customizable setup
 
 # Use Case:
