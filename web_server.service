@@ -1,0 +1,11 @@
+[Unit]
+Description=start access point and start web server
+After=network.target
+
+[Service]
+ExecStart=/home/pi/.venv/bin/python /home/pi/main.py
+WorkingDirectory=/home/pi
+
+[Install]
+WantedBy=multi-user.target
+
